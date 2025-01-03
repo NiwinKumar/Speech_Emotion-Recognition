@@ -119,43 +119,8 @@ class_labels = ['Angry', 'Happy', 'Sad', 'Neutral']
 utils.radar(data_prob, class_labels)
 ```
 
-### Loss/Accuracy Curve
-
-To visualize training loss or accuracy over epochs:
-
-```python
-import utils
-
-# Example usage:
-train_loss = [0.8, 0.6, 0.4] # Replace with actual training loss values
-val_loss = [0.9, 0.7, 0.5] # Replace with actual validation loss values
-utils.curve(train_loss, val_loss, title='Loss Curve', y_label='Loss')
-```
-
-### Waveform Visualization
-
-To plot the waveform of an audio file:
-
-```python
-import utils
-
-file_path = 'path/to/audio/file.wav'
-utils.waveform(file_path)
-```
-
-### Spectrogram Visualization
-
-To plot a spectrogram of an audio file:
-
-```python
-import utils
-
-file_path = 'path/to/audio/file.wav'
-utils.spectrogram(file_path)
-```
-
 ## Conclusion
 
 This SER system leverages state-of-the-art deep learning techniques to classify emotions from speech effectively. By utilizing a combination of LSTM, CNN, SVM, and MLP models along with robust feature extraction methods, it aims to enhance applications in areas such as customer service and mental health analysis.
 
-For further details or contributions, please refer to the project repository or contact me directly.
+For further details or contributions, please refer to the project repository or contact me directly at niwinkumar7@gmail.com .
