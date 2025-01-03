@@ -102,23 +102,6 @@ To predict emotions from a new audio file after training, modify the `predict.py
 python predict.py --config configs/example.yaml
 ```
 
-## Visualization Functions
-
-Several utility functions are provided to visualize results:
-
-### Radar Chart
-
-To display predicted probabilities in a radar chart:
-
-```python
-import utils
-
-# Example usage:
-data_prob = np.array([0.1, 0.2, 0.3, 0.4]) # Replace with actual probabilities
-class_labels = ['Angry', 'Happy', 'Sad', 'Neutral']
-utils.radar(data_prob, class_labels)
-```
-
 ## Conclusion
 
 This SER system leverages state-of-the-art deep learning techniques to classify emotions from speech effectively. By utilizing a combination of LSTM, CNN, SVM, and MLP models along with robust feature extraction methods, it aims to enhance applications in areas such as customer service and mental health analysis.
